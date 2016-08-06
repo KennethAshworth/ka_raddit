@@ -48,3 +48,7 @@ gem 'devise', '~> 4.2.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Allows records to be votable
 gem 'acts_as_votable', '~> 0.10.0'
+# Being used in the comments section
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+# Beining used for div_for method which creates a unique div around an activerecord object
+gem 'record_tag_helper', '~> 1.0'
