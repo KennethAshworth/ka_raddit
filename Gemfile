@@ -42,6 +42,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+# Allows user acccount sign up and sign in
 gem 'devise', '~> 4.2.0'
+# Allows basic styling for prototyping
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+# Allows records to be votable
+gem 'acts_as_votable', '~> 0.10.0'
